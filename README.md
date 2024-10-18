@@ -10,7 +10,7 @@
 - **User Input**: Collects customer details such as name and address.
 - **Keyboard Management**: Automatically hides the keyboard when the user finishes inputting data.
 
-### Screenshots
+### Screenshot
 
 ![Pizzeria Screenshot](https://github.com/marouaEzzaki/PizzeriaApp_Android/blob/main/pizzeria-app-screenshot.png)
 
