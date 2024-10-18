@@ -11,7 +11,8 @@
 - **Keyboard Management**: Automatically hides the keyboard when the user finishes inputting data.
 
 ### Screenshots
-*Add screenshots of your app here to showcase the UI.*
+
+![Pizzeria Screenshot]([URL_OF_YOUR_SCREENSHOT](https://github.com/marouaEzzaki/PizzeriaApp_Android/blob/main/pizzeria-app-screenshot.png))
 
 ### How to Install
 1. Clone this repository:  
