@@ -39,3 +39,9 @@
 1. Clone this repository:  
    ```bash
    git clone https://github.com/your-username/PizzeriaApp_Android.git
+
+
+
+
+### Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
