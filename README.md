@@ -12,7 +12,7 @@
 
 ### Screenshots
 
-![Pizzeria Screenshot]([URL_OF_YOUR_SCREENSHOT](https://github.com/marouaEzzaki/PizzeriaApp_Android/blob/main/pizzeria-app-screenshot.png))
+![Pizzeria Screenshot](https://github.com/marouaEzzaki/PizzeriaApp_Android/blob/main/pizzeria-app-screenshot.png)
 
 ### How to Install
 1. Clone this repository:  
