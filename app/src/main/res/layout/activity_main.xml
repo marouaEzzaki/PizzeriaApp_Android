@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nuevo_fondo"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PIZZA MARWA"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="32sp"
+        android:textColor="#FF8C00"
+        android:textStyle="bold"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre : "
+            android:textSize="19sp"
+            android:layout_marginRight="6dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:hint="Escribe aquí tu nombre ..."
+            android:textColor="#FFFFFF"
+            android:id="@+id/edtTxtNombre"
+            android:textColorHint="#B0BEC5"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direccion : "
+            android:layout_marginRight="6dp"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:textColor="#FFFFFF"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:hint="Calle ejemplo 23 , 9A ...."
+            android:textColorHint="#B0BEC5"
+            android:textColor="#FFFFFF"
+            android:id="@+id/edtTxtDireccion"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#FF8C00"
+        android:textStyle="bold"
+        android:text="Elige tu tamaño de pizza : "
+        />
+
+    <RadioGroup
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/Grupo1">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/small"
+            android:textStyle="bold"
+            android:text="pequeña 5€ "
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFFFF"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/medium"
+            android:textStyle="bold"
+            android:text="mediana 10€"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFFFF"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/big"
+            android:textStyle="bold"
+            android:text="grande 15€"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFFFF"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textSize="24sp"
+        android:textColor="#FF8C00"
+        android:textStyle="bold"
+        android:text="Elige ingredientes 2€ cada uno : "
+        />
+
+    <LinearLayout
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:buttonTint="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/atun"
+                android:text="atún"
+                android:textColor="#FFFFFF"
+                />
+
+            <CheckBox
+                android:buttonTint="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/champinion"
+                android:text="champiñon"
+                android:textColor="#FFFFFF"
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pollo"
+                android:id="@+id/pollo"
+                android:textColor="#FFFFFF"
+                android:buttonTint="#FFFFFF"
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/salmon"
+                android:text="salmón"
+                android:textColor="#FFFFFF"
+                android:buttonTint="#FFFFFF"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pavo"
+                android:text="pavo"
+                android:textColor="#FFFFFF"
+                android:buttonTint="#FFFFFF"
+                />
+
+            <CheckBox
+                android:id="@+id/quesoExtra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="queso extra"
+                android:buttonTint="#FFFFFF"
+                android:textColor="#FFFFFF" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aceitunas"
+                android:text="aceitunas"
+                android:textColor="#FFFFFF"
+                android:buttonTint="#FFFFFF"
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cebolla"
+                android:text="cebolla"
+                android:textColor="#FFFFFF"
+                android:buttonTint="#FFFFFF"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="comprar ahora"
+        android:id="@+id/btnComprar"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#FF8C00"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOTAL A PAGAR = "
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:id="@+id/precioFinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
