@@ -15,14 +15,24 @@
 ![Pizzeria Screenshot](https://github.com/marouaEzzaki/PizzeriaApp_Android/blob/main/pizzeria-app-screenshot.png)
 
 
-### About Me
-I am a final year student and this is one of my first Android applications. I'm currently learning mobile app development, and I aim to improve my skills with each project. Feedback is always welcome!
+### Usage
+1. Select the size of the pizza (Small, Medium, Large).
+2. Choose your toppings by checking the boxes.
+3. Click the "Buy" button to see the total price based on your choices.
+4. Enter your name and address for the order.
+5. The app automatically hides the keyboard when you're done entering details.
+
+### Tech Stack
+- **Language**: Java
+- **Framework**: Android SDK
+- **IDE**: Android Studio
 
 ### Future Improvements
 - Enhance the user interface for a more polished look.
 - Add user authentication for a personalized experience.
 - Implement a database to save previous orders.
 - Include a feature to select multiple pizzas in one order.
+
 
 
 ### How to Install
