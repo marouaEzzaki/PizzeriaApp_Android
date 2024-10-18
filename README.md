@@ -16,10 +16,11 @@
 
 
 ### Usage
-1. Select the size of the pizza (Small, Medium, Large).
-2. Choose your toppings by checking the boxes.
-3. Click the "Buy" button to see the total price based on your choices.
-4. Enter your name and address for the order.
+
+1. Enter your name and address for the order.
+2. Select the size of the pizza (Small, Medium, Large).
+3. Choose your toppings by checking the boxes.
+4. Click the "buy now" button to see the total price based on your choices.
 5. The app automatically hides the keyboard when you're done entering details.
 
 ### Tech Stack
