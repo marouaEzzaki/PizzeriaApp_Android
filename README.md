@@ -14,6 +14,17 @@
 
 ![Pizzeria Screenshot](https://github.com/marouaEzzaki/PizzeriaApp_Android/blob/main/pizzeria-app-screenshot.png)
 
+
+### About Me
+I am a final year student and this is one of my first Android applications. I'm currently learning mobile app development, and I aim to improve my skills with each project. Feedback is always welcome!
+
+### Future Improvements
+- Enhance the user interface for a more polished look.
+- Add user authentication for a personalized experience.
+- Implement a database to save previous orders.
+- Include a feature to select multiple pizzas in one order.
+
+
 ### How to Install
 1. Clone this repository:  
    ```bash
