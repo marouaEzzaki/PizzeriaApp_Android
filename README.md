@@ -1,7 +1,7 @@
 ### About Me
 I am a final-year student currently learning Android development. This Pizzeria app is one of my **first Android projects**, and I am continuously improving my skills. I welcome any feedback or suggestions for enhancements!
 
-# PizzeriaApp_Android
+# Pizzeria App
 
 ### Overview
 **PizzeriaApp_Android** is an Android application developed in Java that allows users to order pizzas with various options for size and ingredients. The app dynamically calculates the total price based on user selections.
