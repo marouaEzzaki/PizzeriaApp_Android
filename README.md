@@ -4,7 +4,7 @@ I am a final-year student currently learning Android development. This Pizzeria 
 # Pizzeria App
 
 ### Overview
-**PizzeriaApp_Android** is an Android application developed in Java that allows users to order pizzas with various options for size and ingredients. The app dynamically calculates the total price based on user selections.
+This is an **Android application developed in Java** that allows users to order pizzas with various options for size and ingredients. The app dynamically calculates the total price based on user selections.
 
 ### Usage
 1. Enter your name and address for the order.
