@@ -21,7 +21,7 @@ This is an **Android application developed in Java** that allows users to order 
 - **Keyboard Management**: Automatically hides the keyboard when the user finishes inputting data.
 
 ### Screenshot
-![Pizzeria Screenshot](https://github.com/marouaEzzaki/PizzeriaApp_Android/blob/main/pizzeria-app-screenshot.png)
+![Pizzeria Screenshot](https://github.com/marouaEzzaki/PizzeriaApp_Android/blob/main/ui-pizzeria.png)
 
 ### Tech Stack
 - **Language**: Java
